@@ -1,3 +1,5 @@
+package stack;
+
 public class StackImpl<T> implements Stack<T> {
 
     private int containerCapacity;
@@ -23,7 +25,7 @@ public class StackImpl<T> implements Stack<T> {
     @Override
     public void remove() {
         if (elementsInside <= 0) {
-            System.out.println("Nothing to remove! Stack already empty!");
+            System.out.println("Nothing to remove! stack.Stack already empty!");
         }else{
             container[elementsInside - 1] = null;
             elementsInside--;

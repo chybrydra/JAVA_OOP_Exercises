@@ -1,4 +1,4 @@
-//interfejs stosu (stack)
+package stack;//interfejs stosu (stack)
 
 public interface Stack<T> {
 
