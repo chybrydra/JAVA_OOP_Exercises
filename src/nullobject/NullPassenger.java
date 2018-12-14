@@ -12,6 +12,6 @@ public class NullPassenger extends AbstractPassenger {
 
     @Override
     public String getName() {
-        return "OBJECT IS NULL";
+        return "NULL PASSENGER";
     }
 }
