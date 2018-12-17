@@ -2,8 +2,6 @@ package builder1;
 
 public class CargoTrainBuilder extends TrainBuilder {
 
-    Train train;
-
     public void composeTrain() {
         train = new Train();
         train.setCarriagesNumber(30);
