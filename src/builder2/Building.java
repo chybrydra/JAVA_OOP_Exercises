@@ -41,9 +41,11 @@ public class Building {
 
     @Override
     public String toString() {
-        System.out.println("Building type: " + this.getType());
-        System.out.println("Building floors: " + this.getNumberOfFloors());
-        System.out.println("Floor height: " + this.getFloorHeight());
-        System.out.println("Has garage: " + this.isGarage());
+        return
+        "New Building: "
+        +"\nBuilding type: " + this.getType()
+        +"\nBuilding floors: " + this.getNumberOfFloors()
+        +"\nFloor height: " + this.getFloorHeight()
+        +"\nHas garage: " + this.isGarage();
     }
 }
