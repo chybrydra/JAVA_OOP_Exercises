@@ -24,6 +24,7 @@ public class Main {
         Person personComing4 = new PersonControlled("Ewelina"); //druga osoba, która chce wejść na przyjęcie
         Person personComing5 = new PersonControlled("Adam"); //druga osoba, która chce wejść na przyjęcie
 
+
         peopleWhoCameIn.add(verificator.verifyGuest(personComing1));
         peopleWhoCameIn.add(verificator.verifyGuest(personComing2));
         peopleWhoCameIn.add(verificator.verifyGuest(personComing3));
@@ -32,7 +33,7 @@ public class Main {
 
         System.out.println("People who came in:");
         for (AbstractGuest guest : peopleWhoCameIn){
-            if(guest instanceof GuestNull){
+            if(guest.isNull()){
                 //tutaj nic nie wykonuje
                 //zanotowałem ile osób próbowało wejść na przyjęcie,
                 //ale na liście wyświetlam tylko osoby które faktycznie weszły
