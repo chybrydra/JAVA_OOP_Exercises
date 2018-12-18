@@ -57,13 +57,9 @@ public class Train {
 
         /** locomotives number cannot be change when building a train */
         private final int locomotivesNumber;
-
         private int carriagesNumber;
-
         private int compositionTrack;
-
         private int destinationTrack;
-
         private boolean expressTrain;
 
         public Builder(int locomotivesNumber) {
