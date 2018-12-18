@@ -42,7 +42,7 @@ public class Building {
     @Override
     public String toString() {
         return
-        "New Building: "
+        "\nBUILDING DATA "
         +"\nBuilding type: " + this.getType()
         +"\nBuilding floors: " + this.getNumberOfFloors()
         +"\nFloor height: " + this.getFloorHeight()

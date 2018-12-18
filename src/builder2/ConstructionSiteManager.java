@@ -16,5 +16,4 @@ public class ConstructionSiteManager {
         return buildingBuilder.build();
     }
 
-
 }
